@@ -1,0 +1,1026 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=PT+Serif:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #041636;
+}
+
+/*? --page-3------ */
+.wrapper-page {
+    padding: 30px 40px 0;
+    position: relative;
+    background: #edd6b4;
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper-page {
+        padding: 0 24px;
+        height: 100vh;
+    }
+}
+
+.logo {
+    position: absolute;
+    width: 300px;
+    /* top: -80px;
+    left: 30px; */
+    top: 2%;
+    left: 2%;
+}
+.logo img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .logo img {
+        width: 50%;
+    }
+}
+
+/* ! - img and info div start  */
+/* img-info on the top */
+.img-hi-parent {
+    width: 100%;
+}
+.img-hi-inner {
+    margin: auto;
+}
+.img-hi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+.img-parent {
+    width: 450px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-top: -140px;
+    display: flex;
+    justify-content: center;
+}
+.img-parent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .img-parent img {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .img-parent img {
+        width: 50%;
+    }
+    .img-parent {
+        margin-top: -60px;
+        width: 295px;
+    }
+}
+
+.img-hi-inner {
+    padding: 24px;
+}
+
+.img-hi-inner .info {
+    /* . */
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.img-hi-inner .info p {
+    /* . */
+    display: flex;
+    align-items: center;
+}
+.hand-shake {
+    /* . */
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: -1px;
+}
+.conversiebot-logo-icon {
+    /* . */
+    width: 16px;
+    margin: -3px 0px 0 5px;
+}
+@media screen and (max-width: 600px) {
+    .img-hi-inner .info {
+        /* . */
+
+        flex-direction: column;
+    }
+    .img-hi-inner .info {
+        /* . */
+
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .img-hi-inner {
+        padding: 24px 0;
+    }
+}
+@media screen and (max-width: 340px) {
+    .img-hi-inner .info {
+        /* . */
+
+        font-size: 14px;
+    }
+}
+
+.big-info {
+    padding: 12px 0;
+}
+.big-info p {
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 700;
+    padding: 0 64px;
+    text-align: center;
+}
+.big-info p strong {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+@media screen and (max-width: 1560px) {
+    .big-info p strong {
+        width: 76%;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .big-info p strong {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .big-info p strong {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .big-info p strong {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .wrapper-page {
+        padding: 0 24px;
+    }
+    .big-info p {
+        padding: 0 32px;
+    }
+    .big-info p strong {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .big-info p {
+        padding: 0px;
+    }
+    .big-info p strong {
+        font-size: 24px;
+        line-height: 35px;
+    }
+}
+/* ! - img and info div end  */
+
+/*! non-aniimated btn start */
+.non-animated-btn-div {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.non-animated-btn-ara-div {
+    width: 400px;
+}
+.non-animated-btn-btn {
+    box-shadow: 0 0 1px rgb(0 0 0 / 50%) inset;
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f5f5f5;
+    background-color: #e45215;
+    padding: 18px;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.non-animated-btn-btn:hover {
+    transform: scale(1.05);
+}
+@media screen and (max-width: 540px) {
+    .non-animated-btn-ara-div {
+        width: 88%;
+    }
+    .non-animated-btn-btn {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
+/*! non-aniimated btn end */
+
+/*! button-below start */
+/* . */
+.button-below {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: -25px;
+}
+.stopwatch {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+.stopwatch img {
+    width: 100%;
+}
+.stopwatchText {
+    font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+    .stopwatchText {
+        font-size: 12px;
+    }
+}
+/*! button-below end */
+
+/*! countries start */
+.onzeH2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.onzeH2 span:first-child {
+    color: #e45215;
+}
+.countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: auto;
+    width: 90%;
+}
+.countries .eachCountry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countryimgParent {
+    padding: 0px 30px;
+    overflow: hidden;
+}
+.countryimgParent img {
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.2s ease-in-out;
+    opacity: 0.6;
+}
+.countries .eachCountry:hover img {
+    transform: scale(1.05);
+    border-radius: 6px;
+    opacity: 1;
+}
+.countries .eachCountry h3 {
+    display: flex;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.countries .eachCountry h3 span:first-child {
+    padding-top: 7px;
+    font-weight: lighter;
+    font-size: smaller;
+}
+@media screen and (max-width: 1300px) {
+    .countries {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .countryimgParent {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .countries .eachCountry h3 {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 440px) {
+    .countries .eachCountry h3 {
+        font-size: 0.8rem;
+    }
+    .onzeH2 span:last-child {
+        font-size: smaller;
+    }
+}
+/*! countries end */
+/*? -----------page-5-6-7------------ */
+/*! vraag start */
+.vraagParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.vraagParent p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.vraagParent .vraagCoff {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+.vraagParent .vraagCoff .vraagImg {
+    width: 50px;
+}
+@media screen and (max-width: 768px) {
+    .vraagParent .vraagCoff .vraagImg {
+        width: 20px;
+    }
+}
+.vraagParent .vraagCoff .vraagImg img {
+    width: 100%;
+    object-fit: cover;
+}
+/*! vraag end */
+
+/*! multi coff cards start */
+.multiCardsParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    text-align: center;
+}
+.multiCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2.5rem 20px;
+    gap: 3rem;
+}
+.coffCard {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .coffImg class check out height
+    */
+    letter-spacing: 0.54px;
+    background-color: #fff;
+    color: #26211e;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+    position: relative;
+
+    max-width: 260px;
+}
+.coffCard:hover .coffImg {
+    opacity: 1;
+}
+
+.coffCard:first-child {
+    transform: rotate(1deg);
+}
+/* - */
+
+.coffCard:first-child:hover {
+    transform: rotate(-5deg);
+}
+.coffCard:last-child:hover {
+    transform: rotate(5deg);
+}
+.coffCard:first-child:hover .firstLike {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.coffCard:last-child:hover .secLike {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.coffCardImgParent {
+}
+.coffImg {
+    width: 100%;
+    opacity: 0.5;
+    transition: all 0.15s ease-in;
+    height: 280px;
+    object-fit: cover;
+}
+.coffCardInfo {
+    font-size: 16px;
+    padding: 10px 15px;
+    line-height: 27px;
+    font-weight: 600;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coffCard .firstLike {
+    left: -35px;
+    transition: all 0.15s ease-in;
+}
+.coffCard .secLike {
+    right: -35px;
+    transition: all 0.15s ease-in;
+}
+.coffHeart {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 30%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 10px solid #f0efed;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+@media screen and (max-width: 768px) {
+    .coffCardImgParent {
+        max-width: 260px;
+        margin: 1rem;
+        height: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .multiCardsParent {
+        margin-top: 20px;
+    }
+    .multiCards {
+        grid-template-columns: 1fr;
+        margin: 20px 10px;
+    }
+    .coffCard {
+        display: grid;
+        grid-template-columns: 1.3fr 1fr;
+    }
+    .coffCardImgParent {
+        margin: 0rem;
+        height: 100%;
+    }
+    .coffCardInfo {
+        padding: 10px;
+        font-size: 14px;
+        height: auto;
+    }
+    .coffImg {
+        height: 100%;
+    }
+    .coffCard:first-child {
+        transform: rotate(0deg);
+    }
+}
+/*! multi coff cards end */
+
+/*! absolutes start*/
+.coffTwoBean {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+}
+@media screen and (max-width: 768px) {
+    .coffTwoBean {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 75px;
+    }
+}
+.cupOfCoff {
+    position: absolute;
+    left: 4%;
+    top: 20%;
+    width: 200px;
+}
+@media screen and (max-width: 850px) {
+    .cupOfCoff {
+        position: absolute;
+        left: 2%;
+        top: 15%;
+        width: 100px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .cupOfCoff {
+        position: absolute;
+        left: 2%;
+        top: 85%;
+        width: 100px;
+    }
+}
+/*! absolutes end*/
+
+/*? -----------page-8------------ */
+/* font-family: 'Fira Sans', sans-serif; */
+.detailPages{
+    background-color: #FEFCF9;
+    padding-bottom: 4rem;
+}
+
+.bgBanner {
+    height: 480px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    z-index: -2;
+    padding-bottom: 30px;
+}
+.bgBanner .bgBanner-layer {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 65, 43, 0.7);
+    z-index: -1;
+}
+.bgBanner .bgBanner-first {
+    color: #e95112;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.bgBanner .bgBanner-second {
+    color: #fff;
+    font-size: 92px;
+    font-weight: lighter;
+}
+.bgBanner .bgBanner-third {
+    color: #fff;
+    font-size: 92px;
+    font-weight: bolder;
+    margin-top: -35px;
+}
+.bgBanner .bgBanner-fourth {
+    color: #fff;
+    font-size: 34px;
+    font-style: italic;
+}
+@media screen and (max-width: 1110px) {
+    .bgBanner .bgBanner-first {
+        font-size: 20px;
+    }
+    .bgBanner .bgBanner-second {
+        font-size: 60px;
+    }
+    .bgBanner .bgBanner-third {
+        font-size: 60px;
+        margin-top: -20px;
+    }
+    .bgBanner .bgBanner-fourth {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .bgBanner {
+        height: 400px;
+    }
+
+    .bgBanner .bgBanner-first {
+        font-size: 16px;
+    }
+    .bgBanner .bgBanner-second {
+        font-size: 40px;
+    }
+    .bgBanner .bgBanner-third {
+        font-size: 40px;
+        margin-top: 0px;
+    }
+    .bgBanner .bgBanner-fourth {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .bgBanner {
+        height: 370px;
+    }
+
+    .bgBanner .bgBanner-second {
+        font-size: 35px;
+    }
+    .bgBanner .bgBanner-third {
+        font-size: 35px;
+    }
+    .bgBanner .bgBanner-fourth {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .bgBanner .bgBanner-second {
+        font-size: 20px;
+    }
+
+}
+/* --- */
+.mainOfLagarantaCoff {
+    padding: 30px 40px 0;
+    max-width: 1912px;
+    margin: 4rem auto 14rem;
+}
+@media screen and (max-width: 850px) {
+    .mainOfLagarantaCoff {
+        margin: 3rem auto;
+    }
+}
+@media screen and (max-width: 400px) {
+    .mainOfLagarantaCoff {
+        padding: 0 24px;
+    }
+}
+.sectionOfLagarantaCoff {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.pageImgParent {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+.pageImgParent:hover .resizeImg{
+    transform: scale(1.2);
+    /* transform: rotate(360deg); */
+}
+.pageImgParent img {
+    width: 100%;
+}
+.resizeImg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.lagarantaCoffContent {
+    width: 70%;
+}
+.lagarantaCoffContent h2 {
+    font-family: "Fira Sans", Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #000000;
+}
+.lagarantaCoffContent h4 {
+    font-family: "Fira Sans", Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #666666;
+    padding: 1rem 0;
+}
+.lagarantaCoffContent h5 {
+    font-family: "Fira Sans", Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    color: #666;
+    line-height: 1.7em;
+    font-size: 20px;
+}
+.lagarantaCoffContent p {
+    padding-bottom: 1em;
+    font-family: "Fira Sans", Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+    color: #666;
+    background-color: #fff;
+    line-height: 1.7em;
+}
+.lagarantaCoffContent div {
+    text-align: center;
+}
+.lagarantaCoffContent div button {
+    outline: none;
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 15px 50px;
+    transition: all 0.3s ease-in-out;
+    width: 40%;
+    margin-top: 2rem;
+}
+.lagarantaCoffContent div button:hover {
+    width: 100%;
+    cursor: pointer;
+}
+@media screen and (max-width: 1400px) {
+    .lagarantaCoffContent {
+        width: 100%;
+    }
+    .pageImgParent {
+        width: 410px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .lagarantaCoffContent h2 {
+        font-size: 30px;
+    }
+    .lagarantaCoffContent div button {
+        width: auto;
+    }
+}
+@media screen and (max-width: 850px) {
+    .sectionOfLagarantaCoff {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pageImgParent {
+        width: auto;
+    }
+}
+@media screen and (max-width: 420px) {
+    .lagarantaCoffContent h2 {
+        font-size: 27px;
+    }
+}
+/* --- */
+.mainOfLagarantaBG {
+    max-width: 1912px;
+    margin: auto;
+}
+
+.mainOfLagarantaBG section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.mainOfLagarantaBG section .mainOfLagarantaBG-aside1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: flex-start;
+    background-color: rgba(0, 65, 43, 1);
+    color: #fff;
+    padding: 130px 90px 130px 150px;
+    align-items: end;
+}
+@media screen and (max-width: 400px) {
+    .mainOfLagarantaBG section .mainOfLagarantaBG-aside1 {
+        padding: 0 24px;
+    }
+}
+.mainOfLagarantaBG-aside1InnerDiv {
+    width: 80%;
+}
+.mainOfLagarantaBG-aside1InnerDiv h3 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    line-height: 43px;
+}
+.mainOfLagarantaBG-aside1InnerDiv p {
+    letter-spacing: 0.4px;
+    margin-bottom: 26px;
+    font-size: 18px;
+    line-height: 43px;
+}
+.mainOfLagarantaBG-aside1InnerDiv button {
+    outline: none;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 15px 50px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 2rem;
+}
+.mainOfLagarantaBG section .mainOfLagarantaBG-aside2 {
+    position: relative;
+}
+.mainOfLagarantaBG section .mainOfLagarantaBG-aside2 .pageImgParent {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.mainOfLagarantaBG section .mainOfLagarantaBG-aside2 .pageImgParent img {
+    width: 100%;
+}
+@media screen and (max-width: 1400px) {
+    .mainOfLagarantaBG section .mainOfLagarantaBG-aside1 {
+        padding: 130px 90px;
+    }
+    .mainOfLagarantaBG-aside1InnerDiv {
+        width: 100%;
+    }
+    .mainOfLagarantaBG section .mainOfLagarantaBG-aside2 .pageImgParent {
+        width: 410px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .mainOfLagarantaBG section {
+        grid-template-columns: 3fr 1fr;
+    }
+}
+@media screen and (max-width: 850px) {
+    .mainOfLagarantaBG section {
+        grid-template-columns: 1fr;
+    }
+    .mainOfLagarantaBG section .mainOfLagarantaBG-aside2 {
+        display: none;
+    }
+    .mainOfLagarantaBG section .mainOfLagarantaBG-aside1{
+        padding:40px;
+    }
+    .mainOfLagarantaBG-aside1InnerDiv p {
+        line-height: 33px;
+    }
+    .mainOfLagarantaBG-aside1InnerDiv h3{
+        margin-bottom: 1rem;
+    }
+    .mainOfLagarantaBG section .mainOfLagarantaBG-aside1 {
+        gap: 1.5rem;
+    }
+
+}
+@media screen and (max-width: 400px) {
+
+    .mainOfLagarantaBG section .mainOfLagarantaBG-aside1{
+        padding:24px;
+    }
+}
+/* -- */
+.mainOfProducts {
+    padding: 30px 40px 0;
+    max-width: 1420px;
+    /* max-width: 1912px; */
+    margin: 4rem auto 14rem;
+}
+@media screen and (max-width: 850px) {
+    .mainOfProducts {
+        margin: 3rem auto;
+    }
+}
+@media screen and (max-width: 400px) {
+    .mainOfProducts {
+        padding: 0 24px;
+    }
+}
+.mainOfProducts h2{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 400;
+    padding: 2rem 0;
+}
+.mainOfProducts img{
+    width: 100%;
+    transition: all .3s ease-in-out;
+
+}
+.mainOfProducts aside{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.eachProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.eachProduct:hover img{
+    transform: scale(1.1);
+}
+.eachProduct:hover button{
+    background-color: #212121;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.productImgParent{
+    padding: 60px;
+    /* width: 320px; */
+    background-color: #faf9f7;
+    height: 100%;
+}
+.productInfo{
+    padding:1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: #fff; */
+    font-family: "Fira Sans", Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+    color: #666;
+    background-color: #fff;
+    line-height: 1.7em;
+
+}
+.productInfo h3{
+    font-size: 16px;
+}
+.productInfo h5{
+    font-weight: inherit;
+    width: 80%;
+    font-size: 14px;
+}
+.productInfo button{
+    border: 1px solid #000;
+    background: transparent;
+    color: #000;
+    padding: 15px 50px;
+    transition: all 0.3s ease-in-out;
+    font-size: 12px;
+    transition: all .3s ease-in-out;
+
+}
+
+@media screen and (max-width: 975px) {
+    .productImgParent{
+        padding: 30px;
+    }
+    .productInfo h5{
+        width: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .mainOfProducts h2{
+        font-size: 24px;
+    }
+    .mainOfProducts aside{
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+@media screen and (max-width: 600px) {
+    .productInfo {
+        padding: .6rem;
+    }
+    .productImgParent{
+        padding: 7px;
+    }
+    .mainOfProducts aside {
+        gap: 7px;
+    }
+    .productInfo button {
+        padding: 7.5px 15px;
+    }
+    .productInfo h5 {
+        font-size: 12px;
+    }
+}
+
